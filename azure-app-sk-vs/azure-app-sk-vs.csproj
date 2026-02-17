@@ -5,6 +5,13 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_sk_vs</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/ba8c389e-a718-4401-82d2-f8372b13d2d1/resourceGroups/az-course-rg/providers/microsoft.insights/components/azure-app-sk-vs</ApplicationInsightsResourceId>
+    <UserSecretsId>37e9e667-c5cf-4f06-8b76-b27b6edb1ab4</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.13.2" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.23.0" />
+  </ItemGroup>
 
 </Project>

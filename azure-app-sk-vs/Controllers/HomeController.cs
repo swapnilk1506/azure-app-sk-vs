@@ -20,7 +20,7 @@ namespace azure_app_sk_vs.Controllers
 
         public IActionResult Privacy()
         {
-            return View();
+            throw new Exception("Testing Insights");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
